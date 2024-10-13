@@ -3,7 +3,7 @@ import ApodCard from "../components/ApodCard";
 
 export default function Home() {
   return (
-    <div className="p-4 bg-black h-screen flex flex-col gap-2">
+    <div className="p-4 bg-black text-white h-screen flex flex-col gap-2">
       <h1>Astronomy Picture of the Day</h1>
       <ApodCard />
       <Link
